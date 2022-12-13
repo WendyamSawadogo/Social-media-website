@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\Raouf\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\Raouf\AppData\Roaming\npm\node_modules\vendor;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Raouf\Downloads\flutter\bin;C:\Program Files\swipl\bin;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\ADB\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\nodejs\;C:\Users\Raouf\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Raouf\AppData\Local\Programs\Python\Python310\;C:\Users\Raouf\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Raouf\AppData\Local\Microsoft\WindowsApps;C:\Users\Raouf\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\Users\Raouf\go\bin;C:\Program Files\JetBrains\CLion 2021.1.1\bin;;C:\Program Files (x86)\Nmap;C:\Users\Raouf\.dotnet\tools;C:\Users\Raouf\AppData\Local\Programs\mongosh\;C:\Program Files\Multipass\bin;C:\Users\Raouf\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.29.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Raouf\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:135945:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:838:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:562:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "projetdevwebshareme",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "WendyamSawadogo <RASAW1@ulaval.ca>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.35.2",
+      "@sanity/core": "^2.35.0",
+      "@sanity/default-layout": "^2.35.2",
+      "@sanity/default-login": "^2.35.2",
+      "@sanity/desk-tool": "^2.35.2",
+      "@sanity/eslint-config-studio": "^2.0.1",
+      "@sanity/vision": "^2.35.2",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
